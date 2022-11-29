@@ -1,0 +1,46 @@
+.RowStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cell {
+    background-color: #CCCCCC;
+    width: 30px;
+    max-width: 30px;
+    height: 30px;
+    max-height: 30px;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+.Cell:hover {
+    background-color: #EEEEEE;
+    width: 30px;
+    max-width: 30px;
+    height: 30px;
+    max-height: 30px;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+.Active{
+    border: 3px solid red;
+    width: 100px;
+    height: 100px;
+    background-color: #CCCCCC;
+    .ModeImage{
+        height: 100%;
+    }
+}
+
+.Deactive{
+    width: 100px;
+    height: 100px;
+    background-color: #CCCCCC;
+    .ModeImage{
+        height: 100%;
+    }
+}
